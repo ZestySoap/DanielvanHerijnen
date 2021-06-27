@@ -1,0 +1,45 @@
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+nav {
+    background: #1F0229;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+}
+
+nav a:hover{
+    background-color: #5A0776;
+}
+
+@media screen and (min-width: 768px){
+    
+    nav ul{
+        display: flex;
+        justify-content: space space-around
+    }
+    
+    
+    nav li {
+        flex: 1 1 0;
+    }
+}
+
+    @media screen and (max-width: 768px) {
+            flex-direction: row;
+            .holdingcontainer{
+        flex-direction: column;
+        }
+    } 
